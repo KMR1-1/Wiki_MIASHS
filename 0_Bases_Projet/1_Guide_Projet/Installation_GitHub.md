@@ -7,11 +7,11 @@
 - Commandes git
 	- clone
 	- branch
+ 		- create branch
 	- Add
 	- Commit
 	- push
 	- pull
- - blabla
 - Pull request
 	- modif
 	- validation
