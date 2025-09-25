@@ -1,1 +1,1 @@
-ceci est un conflit
+ceci est un conflit modifié
