@@ -5,9 +5,9 @@
 - Création d'un compte
 - Installation de git
 - Commandes git
-	- clonerrrrrrrrrrr
+	- clone
 	- branch
-	- Addddddddddddddddd
+	- Addd
 	- Commit
 	- push
 	- pull
