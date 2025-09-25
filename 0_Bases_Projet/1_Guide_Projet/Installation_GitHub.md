@@ -7,6 +7,7 @@
 - Commandes git
 	- clone
 	- branch
+	- h
 	- Add
 	- Commit
 	- push
