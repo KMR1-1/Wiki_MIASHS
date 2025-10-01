@@ -1,18 +1,9 @@
 # Lecture
 - Accès au repository
-- Site Quartz
+	- Site Quartz
 # Edition
 - Création d'un compte
+	- Adresse mail
 - Installation de git
-- Commandes git
-	- clone
-	- branch
- 		- create branch
-	- Add
-	- Commit
-	- push
-	- pull
-- Pull request
-	- modif
-	- validation
-- 
+	- installation Windows
+
