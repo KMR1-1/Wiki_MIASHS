@@ -5,7 +5,7 @@
 - Les nombres de ``0000 0000`` à ``0111 1111`` sont positifs, au delà de ça (de ``1000 0000`` à ``1111 1111``) ils sont négatifs.
 
 
-> [!hint] Conversion Négative
+> [!hint] Conversion Négativf -> Positif
 > 1. **Convertir ``48`` en binaire** :
 >     - 48 -> `00110000`
 > 2. **Inverser les bits** :
@@ -18,7 +18,7 @@
 
 - Si j'ai `11010000` mais que je ne sais pas ce qu'il représente en décimal : je fais la même opération.
 
-> [!hint] Conversion Positive
+> [!hint] Conversion Negatif -> Positive
 > 1. **Inverser `11010000`** :
 > 	- `11010000` -> `00101111` 
 > 2. **Ajouter 1** :
