@@ -11,6 +11,12 @@
 >---
 >- (P => Q) <=> ( (non P) => (non Q) )
 
+- Quand on veux chercher à démontrer un énoncé, on procède par plusieurs types de raisonnements :
+	- [[Raisonnement direct]]
+	- [[Raisonnement cas par cas]]
+	- [[Raisonnement par Contraposée]]
+	
+
 ---
 # Logique d'annulation des prédicats
 

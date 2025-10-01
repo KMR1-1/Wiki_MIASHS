@@ -13,3 +13,8 @@
 > 	- Mais une seule réponse suffit à Valider l'énoncé
 > 	- On cherche donc 1 cas ou c'est vrai !
 > - "$\exists !n$" ici on dit qu'il existe un unique n solution de la propriété
+
+## Annulation
+
+> [!info] Ces deux Quantificateurs sont les opposés l'un de l'autre dans les [[Calcul de prédicat#Logique d'annulation des prédicats|calculs de prédicats]]
+

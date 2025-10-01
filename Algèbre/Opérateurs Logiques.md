@@ -4,7 +4,7 @@
 > - Permet d'associer des [[Logique Mathématique#Assertion / Proposition|propositions]] pour en former de nouvelles.
 > - L'association de deux propositions avec un opérateur logique va créer une table de vérité,
 > 	- On y voit tout les cas de figure des propositions.
-> - S'entrainer à faire des tables de vérité en jouant avec les opérateurs logiques, permet d'intégrer intuitivement les [[Logiques de prédicat]]
+> - S'entrainer à faire des tables de vérité en jouant avec les opérateurs logiques, permet d'intégrer intuitivement les [[Calcul de prédicat]]
 > - On note P et Q des propositions Vraies ou Fausses.
 
 #### Opérateur "ou"
@@ -55,7 +55,7 @@
 > C'est le seul cas de figure ou la promesse est rompue, l'assertion est donc Fausse.
 > ( V => F = F )
 
-- La [[Contraposée]] d'une implication : c'est $(P \Rightarrow Q) \Leftrightarrow (nonQ \Rightarrow non Q)$
+- La [[Raisonnement par Contraposée]] d'une implication : c'est $(P \Rightarrow Q) \Leftrightarrow (nonQ \Rightarrow non Q)$
 	- Utile pour vérifier un énoncé 
 - "Il faut que" : =>
 - "il suffit que" : <=

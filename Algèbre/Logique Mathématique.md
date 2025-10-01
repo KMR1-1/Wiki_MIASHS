@@ -10,8 +10,6 @@
 ## Logique de premier ordre
 - On à le calcul de logique propositionnelle classique : "2+2=4 est Vrai"
 	- On veut savoir si la proposition est décidable (Vrai ou Faux).
-- On as après le calcul de prédicats.
-	- On utilise des Prédicats, Opérateurs et Quantificateurs.
+- On as après la [[Calcul de prédicat]].
+	- On utilise des Prédicats, [[Opérateurs Logiques]] et [[Quantificateurs]].
 	- On utilise des formules, de la démonstration.
-[[Opérateurs Logiques]]
-[[Logiques de prédicat]]
