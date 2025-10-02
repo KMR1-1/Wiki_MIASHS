@@ -1,28 +1,40 @@
-# Règles de base 
-- [[Opérateurs Logiques]]
+# Règles de base
+
+- Voici des exemples d'égalité d'[[Opérateurs Logiques]]
 
 > [!hint] Exemples d'équivalence entre des Assertions
 > 
->- non (P et Q) <=> (non P) ou (non Q)
->- non (P ou Q) <=> (non P) et (non Q)
+>- $non (P \cap Q) \Leftrightarrow (non P) \cup (non Q)$
+>- $non (P \cup Q) \Leftrightarrow (non P) \cap (non Q)$
 > ---
->- P et (Q ou R) <=> (P et Q) ou (P et R)
->- P ou (Q et R) <=> (P ou Q) et (P et R)
+>- $P \cap (Q \cup R) \Leftrightarrow (P \cap Q) \cup (P \cap R)$
+>- $P \cup (Q \cap R) \Leftrightarrow (P \cup Q) \cap (P \cup R)$
 >---
->- (P => Q) <=> ( (non P) => (non Q) )
+>- $(P \Rightarrow Q) \Leftrightarrow ( non P \Rightarrow non Q )$
+
+# Raisonnements
 
 - Quand on veux chercher à démontrer un énoncé, on procède par plusieurs types de raisonnements :
-	- [[Raisonnement direct]]
-	- [[Raisonnement cas par cas]]
-	- [[Raisonnement par Contraposée]]
-	
+
+> [!NOTE] Types de Raisonnements
+> - [[Raisonnement direct]]
+> 	- Prouve qu'une propriété est Vraie grâce à une égalité.
+> - [[Raisonnement cas par cas]]
+> 	- Selon les cas de figure de la propriété, on prouve qu'elle est Vraie grâce à plusieurs égalités.
+> - [[Raisonnement par Contraposée]]
+> 	- Prouver qu'une implication est Vraie ou Fausse grâce à sa contraposée.
+> - [[Raisonnement par l'Absurde]]
+> 	- Si on nie une implication, trouver une contradiction au fait de la nier prouve que la propriété est Vraie.
+> - [[Raisonnement par Contre Exemple]]
+> 	- Si on fait la négation d'une propriété
+> 		- Si cette négation est Vraie, c'est un contre exemple à la propriété.
+> 		- Si cette négation est Fausse, cela prouve la propriété.
 
 ---
-# Logique d'annulation des prédicats
+# Logique de négation
 
 > [!info] 
->- Pour les [[Quantificateurs]], les égalités restent les mêmes
->	- Seul les quantificateurs s'opposent
+>- Les [[Quantificateurs]] s'opposent, les ensembles restent les mêmes
 >- Pour les variables, les égalités s'inversent
 
 | P                          | non P                      |
@@ -32,7 +44,7 @@
 | $x \in \mathbb{R}$         | $x \notin \mathbb{R}$      |
 | $<$                        | $\geq$                     |
 | $>$                        | $\leq$                     |
-### Exemple d'annulation de logique
+### Exemple de négation
 - Supposons $0 \leq x < 2$
 
 > [!question] Annulation Logique

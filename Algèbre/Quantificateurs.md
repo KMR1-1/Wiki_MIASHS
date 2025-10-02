@@ -1,3 +1,5 @@
+# Définition
+
 # Quantificateur $\forall$ "pour tout"
 - "Pour chaque", "pour n'importe quel" ![[quantifForAll]]
 > [!NOTE] Pour tout :
@@ -14,7 +16,9 @@
 > 	- On cherche donc 1 cas ou c'est vrai !
 > - "$\exists !n$" ici on dit qu'il existe un unique n solution de la propriété
 
-## Annulation
+# Enoncé
+- Les quand
+## Négation
 
-> [!info] Ces deux Quantificateurs sont les opposés l'un de l'autre dans les [[Calcul de prédicat#Logique d'annulation des prédicats|calculs de prédicats]]
+> [!info] Ces deux Quantificateurs sont les opposés l'un de l'autre dans la logique de [[Calcul de prédicat#Logique de négation|négation d'une propriété]]
 

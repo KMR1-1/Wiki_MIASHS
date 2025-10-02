@@ -33,6 +33,8 @@
 #### Implication
 - $P \Rightarrow Q$ 
 - similaire à : non($P$) $\cup$ $Q$
+- "Il faut que" : =>
+- "il suffit que" : <=
 
 | P => Q | V   | F   |
 | ------ | --- | --- |
@@ -40,26 +42,25 @@
 | F      | V   | V   |
 - Se base sur le concept de ``promesse`` (Si, Alors).
 
-> [!question] Les cas de L'implication
-> 1. "Si tu range ta Chambre => je te donne du Gâteau" est une implication logique
-> (V => V = V)
-> 2. Si tu ne ranges pas ta chambre => tu n'as du gâteau du gâteau. 
-> Ma promesse n'est pas brisée. C'est donc Vrai !
-> ( F => F = V )
-> 3. Si tu ne range pas ta chambre => je te donnes du gâteau
-> Je n'ai jamais dis : si tu ne ranges pas ta chambre, tu n'aura pas de gâteau.
-> Aucune promesse n'a été rompue. C'est donc Vrai !
-> ( F => V = V )
+> [!question] Les cas de L'implication ex : "Si tu range ta Chambre => Je te donne du Gâteau" est une implication logique
+> 1. Tu as rangé ta chambre => Tu as du gâteau.
+> 	- (Vrai => Vrai) est  Vrai
+> 2. Tu n'as pas rangé ta chambre => Tu n'as pas de gâteau.
+> 	- Ma promesse n'est pas brisée l'implication est donc Vrai !
+> 	- ( Faux => Faux ) est Vrai 
+> 3. Tu n'as pas rangé ta chambre => Tu as du gâteau.
+> 	- C'est le plus contre-intuitif des cas de figure de l'implication
+> 	- Mais il n'a jamais été dit que "si tu ne ranges pas ta chambre => tu n'aura pas de gâteau".
+> 	- Alors dans ce cas de figure, aucune promesse n'a été rompue, l'implication est donc Vrai !
+> 	- ( Faux => Vrai ) = Vrai 
 > 
 > 4. Si tu range ta chambre, et que tu n'a pas de Gâteau.
 > C'est le seul cas de figure ou la promesse est rompue, l'assertion est donc Fausse.
 > ( V => F = F )
 
-- La [[Raisonnement par Contraposée]] d'une implication : c'est $(P \Rightarrow Q) \Leftrightarrow (nonQ \Rightarrow non Q)$
-	- Utile pour vérifier un énoncé 
-- "Il faut que" : =>
-- "il suffit que" : <=
-- Cette table est équivalente à ( ( non P ) ou Q )
+- La [[Raisonnement par Contraposée|contraposée]] d'une implication : c'est $(P \Rightarrow Q) \Leftrightarrow (nonP \Rightarrow non Q)$
+- Le [[Raisonnement par l'Absurde]] d'une implication c'est :
+	- "$(P \Rightarrow Q)$ est Vrai" si "$(P \Rightarrow nonQ)$ est Faux".
 
 #### Équivalence 
  - P <=> Q
