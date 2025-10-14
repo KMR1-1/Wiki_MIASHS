@@ -14,7 +14,7 @@
 
 # Raisonnements
 
-- Quand on veux chercher à démontrer un énoncé, on procède par plusieurs types de raisonnements :
+- Quand on veux chercher à démontrer un [[Quantificateurs#Enoncé|énoncé]], on procède par plusieurs types de raisonnements :
 
 > [!NOTE] Types de Raisonnements
 > - [[Raisonnement direct]]
@@ -34,7 +34,7 @@
 # Logique de négation
 
 > [!info] 
->- Les [[Quantificateurs]] s'opposent, les ensembles restent les mêmes
+>- Quand on introduit une variable, l'égalité reste la ême
 >- Pour les variables, les égalités s'inversent
 
 | P                          | non P                      |
@@ -44,10 +44,23 @@
 | $x \in \mathbb{R}$         | $x \notin \mathbb{R}$      |
 | $<$                        | $\geq$                     |
 | $>$                        | $\leq$                     |
+| $\in$                      | $\notin$                   |
 ### Exemple de négation
-- Supposons $0 \leq x < 2$
 
-> [!question] Annulation Logique
+> [!NOTE] Négation d'une équivalence
+> - On va utiliser les règles établies au dessus pour trouver la négation d'une équivalence.
+> - On sait que $(Q \Leftrightarrow P)$ est équivalent à ==$(Q \Rightarrow P) \cap (P \Rightarrow Q)$==
+> - Donc $non[(Q \Rightarrow P) \cap (P \Rightarrow Q)]$ est équivalent à ==$non(Q \Rightarrow P) \cup non(P \Rightarrow Q)$==
+> 	- On voit que $\cap$ est devenu $\cup$
+> - On sais que $(P \Rightarrow Q)$ est équivalent à $(nonP \cup Q)$
+> 	- On va donc remplacer les termes
+> - Donc $non(Q \Rightarrow P) \cup non(P \Rightarrow Q)$ équivaux à $non(nonQ \cup P) \cup non(nonP \cup Q)$
+> 	- $non(nonQ \cup P)$ nous donne $[non(nonQ) \cap (nonP)]$ soit $(Q \cap nonP)$
+> 	- $non(nonP \cup Q)$ nous donne $[non(nonP) \cap (nonQ)]$ soit $(P \cap nonQ)$
+>- On remet ça au propre : $(Q \cap nonP) \cup (P \cap nonQ)$
+> - On sais maintenant que $non(Q \Leftrightarrow P) \Leftrightarrow (Q \cap nonP) \cup (P \cap nonQ)$
+
+> [!question] Annulation Logique : Supposons $0 \leq x < 2$
 > - non $(0 \leq x < 2)$
 >- <=> non ( $(2 > x) \cap (x \geq 0)$ )
 > - <=> (non $(2 > x)$) $\cup$ (non $(x \geq 0)$)

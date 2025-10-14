@@ -24,8 +24,7 @@
 | F          | F   | F   |
 #### Opérateur "non"
 - peut se noter "not", "¬"
-- c'est la contraposée
-- (non P) est Vrai si P est Fausse
+- $non P$ est Vrai si $P$ est ``Fausse``
 
 | P         | V   | F   |
 | --------- | --- | --- |
@@ -49,7 +48,7 @@
 > 	- Ma promesse n'est pas brisée l'implication est donc Vrai !
 > 	- ( Faux => Faux ) est Vrai 
 > 3. Tu n'as pas rangé ta chambre => Tu as du gâteau.
-> 	- C'est le plus contre-intuitif des cas de figure de l'implication
+> 	- C'est le cas de figure de l'implication le plus contre-intuitif.
 > 	- Mais il n'a jamais été dit que "si tu ne ranges pas ta chambre => tu n'aura pas de gâteau".
 > 	- Alors dans ce cas de figure, aucune promesse n'a été rompue, l'implication est donc Vrai !
 > 	- ( Faux => Vrai ) = Vrai 
@@ -63,15 +62,12 @@
 	- "$(P \Rightarrow Q)$ est Vrai" si "$(P \Rightarrow nonQ)$ est Faux".
 
 #### Équivalence 
- - P <=> Q
-	 - similaire à : ( P => Q ) $\cap$ (Q => P)
-- "Si Q est faux alors P est faux" est une assertion vraie.
+ - $P \Rightarrow Q$
+ - similaire à : $(P \Rightarrow Q) \cap (Q \Rightarrow P)$
+- "Si Q est faux alors P est faux" est une assertion ``Vraie``.
 
 | P <=> Q | V   | F   |
 | ------- | --- | --- |
 | V       | V   | F   |
 | F       | F   | V   |
 
-## Exemple de syntaxe
-- Si P est l’assertion « Cette carte est un as » et Q l’assertion « Cette carte est cœur » alors l’assertion « P ou Q » est vraie si la carte est un as ou bien un cœur
-	- P OU Q

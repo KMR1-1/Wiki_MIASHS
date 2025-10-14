@@ -1,8 +1,10 @@
 ## Définition
-- Dans une implication, pour trouver si l'assertion est vraie, au lieu de faire un [[Raisonnement direct]] (vérifier $P \Rightarrow Q$) on regarde si la contraposée est vraie
-- Si $(non P \Rightarrow non Q)$ est ``Vraie``, alors $(P \Rightarrow Q)$ est ``Vraie``
+- Dans une implication, pour trouver si l'assertion est ``Vraie``, au lieu de faire un [[Raisonnement direct]], on regarde si la contraposée est ``Vraie``
 
-> [!hint] Ces propositions sont ``équivalentes``, dans le sens où prouver que si l'une est ``Vraie``, prouve que l'autre est ``Vraie``.
+
+> [!hint] Prouver que la contraposée d'une [[Opérateurs Logiques#Implication|implication]] est ``Vraie``, nous prouve que l'implication de base est ``Vraie``.
+>- Si $(non P \Rightarrow non Q)$ est ``Vraie``, alors $(P \Rightarrow Q)$ est ``Vraie``
+>- Ces propositions sont équivalentes 
 
 ___
 ## Démonstration
@@ -23,4 +25,6 @@ ___
 >- $n² = 2l + 1$ 
 >	- avec $l = 2k²+2k$
 >- Si n est impaire $(n=2k+1)$ on voit que n² est impaire $(n²=2l+1)$
+
+
 
