@@ -1,0 +1,3 @@
+- Confondre distribution marginale et fréquence conditionnelle
+- Dans un histogramme on ne met pas la hauteur d'un effectif, mais effectif $\div$ |classe|
+- 

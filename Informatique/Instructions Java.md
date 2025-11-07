@@ -64,7 +64,6 @@ nb va prendre la valeur de cet entier
 | `boolean` | vrai ou faux                      | `true` / `false` | nextBoolean  |
 
 ---
-
 ## Tableau (liste de valeurs)
 
 Je commence avec un tableau de string :
@@ -134,7 +133,7 @@ while (jourDuMois < 1 || jourDuMois > 31) {
     jourDuMois = s.nextInt()
 }
 ```
-Si le "jourDuMois" est en dessous de 1 ou au dessus de 31
+Si le "jourDuMois" est en dessous de 1 OU au dessus de 31
 - La condition `(jourDuMois < 1 || jourDuMois > 31)`
 Alors le programme demande de redéfinir `jourDuMois`
 Si le nombre n'est pas entre 1 et 31 alors la boucle recommence du début, et donc redemande de définir `jourDuMois` !
@@ -186,7 +185,31 @@ Dans l'exemple au dessus, on commence à l'index 5 du tableau.
 - Le tableau se remplis jusqu'à l'index 9.
 
 ---
+## Manipulation String
 
+```java
+String str = "Hello World";
+char ch = str.charAt(6);
+
+System.out.println(ch);
+``` 
+
+La fonction `charAt(6)` renvoie la 7ème lettre de `str`
+Donc si je print `ch` je devrait avoir la lettre "W" apparaitre dans le Terminal.
+
+```java
+for (i = 0, i < str.length(), i++){	
+	System.out.println(str.charAt(i));
+}
+```
+Ici `str.length()` c'est le nombre de caractères dans ma chaine `str`
+Quand je fais `str.charAt(i)` dans ma boucle, cela va afficher chaque lettres de `str` une par une.
+
+## Manipulation de char*
+
+Chaque caractère à un identifiant ascii
+
+---
 ## Exemple complet de programme
 
 ```java

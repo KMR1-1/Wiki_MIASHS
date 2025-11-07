@@ -1,0 +1,54 @@
+# Définition
+
+> [!NOTE] Attention
+> Amplificateur des info pertinentes, sélection
+> Diminue les sollicitations externes dans le processus d'apprentissage
+> On inhibe la demande en ressource qui encombre la cognition
+> Les ressources attentionnelles sont facilement interrompues par l'environnement
+> Sans l'attention, nous ne percevront pas l'environnement
+
+Attention = différentes formes :
+### Soutenue
+Capacité à maintenir une activité continue ou répétitive
+Traitement actif de longue durée.
+### Alerte
+Eveil, stress, sollicitation
+Préparation à réagir
+Un stimuli qui fait réagir
+### Sélective
+Focalisée, particulière, ciblée, pertinent
+Oriente, Amplifie, maintient un évènement externe à la pensée
+Filtre des distractions et perturbations
+Concentrer, mobiliser des ressources cog sur une tache (flow)
+### Divisée
+Avec l'automatisation, une tache demande moins de ressources
+Des taches simultanées peuvent s'effectuer avec moins de ressources cog
+Ressources partagées + libération des ressources attentionnelles
+
+
+---
+## Niveaux de traitement
+
+Ce sont des systèmes attentionnels :
+Il y a l'attention sélective et
+#### Processus contrôlé / contrôle exécutif
+Supervise et régule les opérations, contrôle conscient
+Organisation, flexibilité
+Objectifs via opérations mentales
+Lent, Séquentiel, couteux en ressources
+
+#### Mémoire de travail
+Système à capacité limité
+Qui stocke et traite l'info temporairement
+manipulation de taches rapides comme lire un mot
+Processus parallèle, simultané
+Encode les stimuli
+Echange extérieur où répétition pousse l'info vers la mémoire long terme
+
+---
+## Mind wandering
+Des pensées en dehors de la ou l'attention se porte
+l'attention est fluctuante
+Rêverie non optimale, opposée
+- Fatigue, préoccupations, volonté, intérêt
+- Faire des pauses, réguler l'attention, structurer son temps, réduire les distractions
