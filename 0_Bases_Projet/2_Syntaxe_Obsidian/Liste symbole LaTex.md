@@ -1,5 +1,5 @@
 - Mettre 1 Dollar `$commandes$` pour afficher le symbole sur une ligne
-- Mettre 2 Dollars `$$LaTex$$ Pour Centrer et agrandir la formule
+- Mettre 2 Dollars `$$LaTex$$` Pour Centrer et agrandir la formule
 - [List of LaTeX mathematical symbols - OeisWiki](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols)
 ## Opérateurs
 
@@ -16,9 +16,9 @@
 | \land           | $\land$           | Inter       |
 | \lor            | $\lor$            | Union       |
 | \lnot           | $\lnot$           | Non         |
-| \Rightarrow     | $\Rightarrow$     | Implique    |
+| \implies        | $\implies$        | Implique    |
 | \Leftrightarrow | $\Leftrightarrow$ | Equivaut    |
-| \rightarrow     | $\rightarrow$     | Application |
+| \to             | $\to$             | Application |
 | \circ           | $\circ$           | Composition |
 | \bullet         | $\bullet$         | stat ligne  |
 | A \setminus B   | $A \setminus B$   | A sans B    |
@@ -45,11 +45,13 @@
 | \mathbb{N} | $\mathbb{N}$ |
 | \Gamma     | $\Gamma$     |
 | \sigma     | $\sigma$     |
+| \infinity  | $\infty$     |
 ### Grandes formule
 
-| LaTex          | Symbol             |
-| -------------- | ------------------ |
-| \frac{a}{b}    | $\frac{a}{b}$      |
-| \sum_{a}^{b} c | $$\sum_{a}^{b}c$$  |
-| \int_{a}^{b} c | $$\int_{a}^{b} c$$ |
+| LaTex                      | Symbol                       |
+| -------------------------- | ---------------------------- |
+| \frac{a}{b}                | $\frac{a}{b}$                |
+| \sum_{a}^{b} c             | $$\sum_{a}^{b}c$$            |
+| \int_{a}^{b} c             | $$\int_{a}^{b} c$$           |
+| \lim\limits_{x \to \infty} | $\lim\limits_{x \to \infty}$ |
 

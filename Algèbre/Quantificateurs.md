@@ -20,7 +20,7 @@ ___
 > - "$\exists !n$" ici on dit qu'il existe un unique n solution de la propriété
 
 ___
-# Enoncé
+# Exemple
 - On peut traduire tout nos énoncés grâce à cette écriture algébrique, ex :
 - Pour tout entier n, si n est pair, alors n² est pair :
 -  $\forall n \in \mathbb{N}, (\exists k \in \mathbb{N}, n = 2k) \implies (\exists l \in \mathbb{N}, n² = 2l)$

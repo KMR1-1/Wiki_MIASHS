@@ -70,5 +70,7 @@
 > - Ici x est dans l'ensemble $[0;2[$
  >- La négation intuitive de cet intervalle, c'est tout ce qui n'est pas dans dedans, soit :
  >- $]-\infty \space; 0[ \space \cup \space ]2 \space;+\infty[$
- >- Mais on peut le trouver grâce a la logique
+ >- Mais on peut le trouver par les règles de logique
+ 
+ 
  
