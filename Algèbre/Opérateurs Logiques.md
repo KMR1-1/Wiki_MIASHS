@@ -1,7 +1,7 @@
 ## Définition
 
 > [!NOTE] Déf
-> - Permet d'associer des [[Logique Mathématique#Assertion / Proposition|propositions]] pour en former de nouvelles.
+> - Permet d'associer des [[1 Logique Mathématique#Assertion / Proposition|propositions]] pour en former de nouvelles.
 > - L'association de deux propositions avec un opérateur logique va créer une table de vérité,
 > 	- On y voit tout les cas de figure des propositions.
 > - S'entrainer à faire des tables de vérité en jouant avec les opérateurs logiques, permet d'intégrer intuitivement les [[Calcul de prédicat]]

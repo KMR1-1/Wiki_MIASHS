@@ -1,8 +1,6 @@
 # Règles de base
 
-- Voici des exemples d'égalité d'[[Opérateurs Logiques]]
-
-> [!hint] Exemples d'équivalence entre des Assertions
+> [!hint] Distributivité logique
 > 
 >- $non (P \cap Q) \Leftrightarrow (non P) \cup (non Q)$
 >- $non (P \cup Q) \Leftrightarrow (non P) \cap (non Q)$
@@ -14,21 +12,21 @@
 
 # Raisonnements
 
-- Quand on veux chercher à démontrer un [[Quantificateurs#Enoncé|énoncé]], on procède par plusieurs types de raisonnements :
+Quand on veux chercher à démontrer un [[Quantificateurs#Enoncé|énoncé]], on procède par plusieurs types de raisonnements :
 
-> [!NOTE] Types de Raisonnements
-> - [[Raisonnement direct]]
-> 	- Prouve qu'une propriété est Vraie grâce à une égalité.
-> - [[Raisonnement cas par cas]]
-> 	- Selon les cas de figure de la propriété, on prouve qu'elle est Vraie grâce à plusieurs égalités.
-> - [[Raisonnement par Contraposée]]
-> 	- Prouver qu'une implication est Vraie ou Fausse grâce à sa contraposée.
-> - [[Raisonnement par l'Absurde]]
-> 	- Si on nie une implication, trouver une contradiction au fait de la nier prouve que la propriété est Vraie.
-> - [[Raisonnement par Contre Exemple]]
-> 	- Si on fait la négation d'une propriété
-> 		- Si cette négation est Vraie, c'est un contre exemple à la propriété.
-> 		- Si cette négation est Fausse, cela prouve la propriété.
+Types de Raisonnements
+[[Raisonnement direct]]
+	Prouve qu'une propriété est Vraie grâce à une égalité.
+[[Raisonnement cas par cas]]
+	Selon les cas de figure de la propriété, on prouve qu'elle est Vraie grâce à plusieurs égalités.
+[[Raisonnement par Contraposée]]
+	Prouver qu'une implication est Vraie ou Fausse grâce à sa contraposée.
+[[Raisonnement par l'Absurde]]
+	Si on nie une implication, trouver une contradiction au fait de la nier prouve que la propriété est Vraie.
+[[Raisonnement par Contre Exemple]]
+	Si on fait la négation d'une propriété
+	Si cette négation est Vraie, c'est un contre exemple à la propriété.
+	Si cette négation est Fausse, cela prouve la propriété.
 
 ---
 # Logique de négation

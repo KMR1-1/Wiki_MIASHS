@@ -51,7 +51,7 @@
 	$\sigma² = Var(x)=m(x²) - m(x)²$
 	$m(x²) = \frac{1}{N} \sum(x_i²\times n_i)$ 
 
-**Ecart-type (standard-derivative)** :
+**Ecart-type (standard-deviation)** :
 	$\sigma = \sqrt{Var(x)}$
 	$\sigma_{ax+b} = |a|\sigma_x$
 		Augmenter toutes les valeurs de b ne fait rien
